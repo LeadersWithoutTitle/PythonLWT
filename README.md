@@ -11,12 +11,17 @@ Python étant surtout "Open Source" c'est dela que vient notre choix pour ce lan
 
 ##Contenu du site :##
 
-  **C'est quoi Python ?** : Description global du langage Python.
-  **Historique de Python** : Les débuts de créations du langage Python.
-  **Pourquoi Python ?** : Les avantages qu'offre le langage Python.
-  **Qui utilise Python ?** : Différents projets programmé avec le langage Python.
-  **Apprentissage** : Des listes de ressources pour débuter avec Python.
-  **A propos** : Section consacré aux fondateurs du site web.
+  **C'est quoi Python ?** : Description global du langage Python.  
+
+  **Historique de Python** : Les débuts de créations du langage Python.  
+
+  **Pourquoi Python ?** : Les avantages qu'offre le langage Python.  
+
+  **Qui utilise Python ?** : Différents projets programmé avec le langage Python.  
+
+  **Apprentissage** : Des listes de ressources pour débuter avec Python.  
+
+  **A propos** : Section consacré aux fondateurs du site web.  
 
 ##Les contributeurs :##
 
