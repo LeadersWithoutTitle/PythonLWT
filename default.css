@@ -93,11 +93,15 @@ h1,h2,h3 {
 /* title */
 .title {
 	float: left;
-	padding: 28px 0 0 76px;
+	/*padding: 28px 0 0 76px;*/
 }
 .title h1 {
 	color: #FFF;
 	font: normal 2em "Liberation Sans", sans, sans-serif;
+}
+#logo {
+	height: 90px;
+	margin-left: 20px;
 }
 /* navigation */
 .navigation {

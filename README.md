@@ -4,7 +4,7 @@ PythonLWT by LWT
 
 ##le Projet :##
 
-Le projet consiste à présenter un langage de programmation nommé **Python** ,langage de programmation orienté objet.
+Le projet consiste à présenter un langage de programmation nommé **Python**, un langage de programmation orienté objet.
 Python étant surtout "Open Source" c'est dela que vient notre choix pour ce langage.
   Ce projet est réalisé en une série de pages web qui ont pour but de guider les gens à découvrir Python en commençant par sa description et son historique jusqu'à proposer des tutoriels et videos en lignes.
 
@@ -38,5 +38,5 @@ Les etudiants qui forment les LWT(TM) :
 Vous pouvez nous contacter par mail à l'adresse suivante : **leaders-without-a-title@googlegroups.com**.
 
 ##Licences :##
-  **Contenu du site web** : Creative Commons Licence.
-  **Code source du site web** : MIT Licence.
+  **Contenu du site web** : [Creative Commons Licence Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/).
+  **Code source du site web** : [MIT Licence](http://mit-license.org/).
