@@ -7,6 +7,28 @@
 <meta name="author" content="Leaders Without a Title"/> 
 <link rel="stylesheet" type="text/css" href="default.css"/>
 <title>Qui utilise Python ?</title>
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+<style type="text/css">
+   /* This CSS is used for the Show/Hide functionality. */
+   .more {
+      display: none;
+      border-top: 1px solid #666;
+      border-bottom: 1px solid #666; }
+ 
+</style>
 </head>
 
 <body>
@@ -16,7 +38,7 @@
 	<div class="header">
 		
 		<div class="title">
-			<img src="img/LWT-logo.png" alt="LWT logo"/>
+			<h1>LWT Team</h1>
 		</div>
 
 		<div class="navigation">
@@ -34,46 +56,62 @@
 
 	<div class="main">
 		
-		<div class="content">
 
-			<h1>Contribuer au logiciel Blender</h1>
-			
-			<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. Nullam posuere tristique tortor. In bibendum. Aenean ornare, <a href="index.html">nunc eget pretium</a> porttitor, sem est pretium leo, non euismod nulla dui non diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est.</p>
+<table>
+<tr>
+<td>
+      <h1>Developpement Web</h1>
+      <p> <a href="https://fr.groups.yahoo.com/">Yahoo Groups</a> : Une archive de mailing list via internet qui a été originallement implémentée purement en Python.Scott Hassan, un des fondateurs de Findmail/eGroups (Une compagnie que Yahoo a racheté après), a reportée qu'elle avait eu 180,000 lines de codes ecrites en Python dans leurs sites web dynamic, qui peut aspirer 200 messages/seconde dans un processeur cadencé à 400 MHz Pentium.
+ <a href="#" id="example1-show" class="showLink" onclick="showHide('example1');return false;">Voir plus...</a></p>
+      <div id="example1" class="more">
+         <p>Google, Zope Corporation, Ultraseek, Linux Weekly News, ElasticHosts Cloud Servers, Mojam.com, Shopzilla, Movieplayer.it, Blogger.com ... </p>
+         <p><a href="#" id="example1-hide" class="hideLink" onclick="showHide('example1');return false;">Cacher ce contenu...</a></p>
+    
+  </div>
+</td>
+<td>
+<h1>Jeux videos</h1>
+      <p><a href="http://www.battlefield.com/fr/battlefield-2">Battlefield 2</a> : utilise Python pour implémenter beaucoup d'éléments importants du gameplay du jeu comme par exemple : sauvegarder les scores et le balancement des équipes. Visitez le <a href="http://bf2.fun-o-matic.org/index.php/Main_Page">Tech Wiki</a> pour plus d'exemples de scripts de BF2 ecrits en Python et pour plus d'information sur les API utilisées . <a href="#" id="example2-show" class="showLink" onclick="showHide('example2');return false;">Voir plus...</a></p>
+      <div id="example2" class="more">
+         <p>Crystal Space, Star Trek Bridge Commander, Civilization 4, World of Tanks, Freedom Force, Frets on Fire.... </p>
+         <p><a href="#" id="example2-hide" class="hideLink" onclick="showHide('example2');return false;">Cacher ce contenu...</a></p> </div>
+</td>
+<td>
+<h1>Produtcion de logiciel</h1>
+		<p>Python est, ou peut etre utilisé comme un langage de script pour des logiciels comme <a href="http://www.blender.org/">Blender 3D </a> : Ce logiciel de modélisation 3D utilise Python en tant qu'un langage d'extension. Blender 3D est un programme libre et gratuit avec une grande communauté d'utilisateurs et de contributeurs. <a href="#" id="example3-show" class="showLink" onclick="showHide('example3');return false;">Voir plus...</a></p>
+      <div id="example3" class="more">
+         <p>Abaqus, Amarok, ArGis,  </p>
+         <p><a href="#" id="example3-hide" class="hideLink" onclick="showHide('example3');return false;">Cacher ce contenu...</a></p></div>
+</td>
+</tr>
+<tr>
 
-			<cite>Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus.</cite>
-			
-			<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus. Nunc blandit sodales lacus. Nam luctus semper mi. In eu diam.</p>
+<td>
+      <h1>Finances</h1>
+      <p><a href="https://www.abnamro.nl/en/personal/index.html">ABN AMRO Bank</a> Treasury Systems The trade to risk management interfaces translate new and updated trade information from our trading system to the, internally written, bank-wide risk information system. SWIG was used to wrap the required parts of the 3rd party C++ trading system class library; we also wrapped the CORBA interface to the risk system using SWIG. Python was used to describe the structural and field value mapping. There are 3052 lines of Python code in the system. <a href="#" id="example4-show" class="showLink" onclick="showHide('example4');return false;">Voir plus...</a></p>
+      <div id="example4" class="more">
+         <p>Altis Investment Management, Bellco Credit Union, Journyx Timesheet and Resource Management Software...</p>
+         <p><a href="#" id="example1-hide" class="hideLink" onclick="showHide('example4');return false;">Cacher ce contenu...</a></p>
+    
+  </div>
+</td>
+<td>
+<h1>Science</h1>
+      <p><a href="http://www.nasa.gov/">NASA</a> Johnson Space Center uses Python in its Integrated Planning System as the standard scripting language. Efforts are underway to develop a modular collection of tools for assisting shuttle pre-mission planning and to replace older tools written in Perl and shell dialects. Python will also be installed in the new Mission Control Center to perform auxiliary processing integrated with a user interface shell. Ongoing developments include an automated grammar based system whereby C++ libraries may be interfaced directly to Python via compiler techniques. This technology can be extended to other languages in the future.<a href="#" id="example5-show" class="showLink" onclick="showHide('example5');return false;">Voir plus...</a></p>
+      <div id="example5" class="more">
+         <p>Swedish Meteorological and Hydrological Institute (SMHI), Environmental Systems Research Institute (ESRI), LLNL, AlphaGene.Inc, The National Research Council of Canada, Biosoft...</p>
+         <p><a href="#" id="example5-hide" class="hideLink" onclick="showHide('example5');return false;">Cacher ce contenu...</a></p> </div>
+</td>
+<td>
+<h1>Education</h1>
+      <p><a href="http://uci.edu/">L'Université de Californie, campus d'Irvine</a> : Le campus a développé des douzaines d'applications de Python comprenant un programme rechercheable des classes, télévision (un système qui permet  au étudiants de regarder/mettre à jour leur information confidentielle comprenant le programme du cours, situation financière, l'information d'honoraires, livres pour le cour, etc), un système en temps réel de signalisation de récupération et de catégorie de rôle de classe pour la faculté, et une interface au campus CCSO. Tous ces services là sont disponibles sur le web. <a href="#" id="example6-show" class="showLink" onclick="showHide('example6');return false;">See more.</a></p>
+      <div id="example6" class="more">
+         <p>Delft University of Technology, Faculty of Aerospace Engineering, Delft,Netherlands; Smeal College of Business, The Pennsylvania State University; New Zealand Digital Library; SchoolTool: is a project to develop a common global school administration infrastructure that is freely available under an Open Source licence. </p>
+         <p><a href="#" id="example6-hide" class="hideLink" onclick="showHide('example6');return false;">Cacher ce contenu...</a></p> </div>
+</td>
 
-			<p>Fusce porta pede nec eros. Maecenas ipsum sem, interdum non, aliquam vitae, interdum nec, metus. Maecenas ornare lobortis risus. Etiam placerat varius mauris. Maecenas viverra. Sed feugiat. Donec mattis <a href="index.html">quam aliquam</a> risus. Nulla non felis sollicitudin urna blandit egestas. Integer et libero varius pede tristique ultricies. Cras nisl. Proin quis massa semper felis euismod ultricies.
-			</p>
-
-			<h1>Adipiscing</h1>
-			<div class="descr">Jun 11, 2006 by Laoreet</div>
-
-			<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus. Nunc blandit sodales lacus. Nam luctus semper mi. In eu diam. Phasellus rutrum elit vel nisi. Cras mauris nulla, egestas quis, cursus at, venenatis ac, ante. Fusce accumsan enim et arcu. Duis sagittis libero at lacus. Suspendisse lacinia nulla eget urna.</p>
-			<ul>
-				<li>Tristique</li>
-				<li>Aenean</li>
-				<li>Pretium</li>
-			</ul>
-			<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. Nullam posuere tristique tortor. In bibendum. Aenean ornare, nunc eget pretium porttitor, sem est pretium leo, non euismod nulla dui non diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est. Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus. Fusce eleifend, dui ut posuere auctor, justo elit posuere sapien, at blandit enim quam fringilla mi.</p>
-
-			<h1>Interdum</h1>
-			<div class="descr">May 24, 2006 by Lectus</div>
-
-			<p>Praesent nisi sem, bibendum in, ultrices sit amet, euismod sit amet, dui. Donec varius tincidunt nisi. Ut ut sapien. Integer porta. Fusce nibh. Curabitur pellentesque, lectus at <a href="index.html">volutpat interdum</a>, sem justo placerat elit, eget feugiat est leo tempor quam. Ut quis neque convallis magna consequat molestie. Nullam semper massa eget ligula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque a nibh quis nunc volutpat aliquam</p>
-			<code>margin-bottom: 12px;
-font: normal 1.1em "Lucida Sans Unicode",serif;
-background: url(img/quote.gif) no-repeat;
-padding-left: 28px;
-color: #555;</code>
-			<p>Eget feugiat est leo tempor quam. Ut quis neque convallis magna consequat molestie.</p>
-
-		</div>
-	
-		<div class="clearer">&nbsp;</div>
-
-	</div>
+</tr>
+</table>
 
 </div>
 
