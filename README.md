@@ -28,6 +28,6 @@ Les etudiants qui forment les LWT(TM) :
   * ABBAD Hamza
   * CHAID Roumaissa     
   * DELLALI Salim
-  * Maamra Youcef 
+  * MAAMRA Youcef 
 
 Vous pouvez nous contacter par mail à l'adresse suivante : **leaders-without-a-title@googlegroups.com**.
