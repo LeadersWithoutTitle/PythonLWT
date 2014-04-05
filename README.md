@@ -31,3 +31,7 @@ Les etudiants qui forment les LWT(TM) :
   * MAAMRA Youcef 
 
 Vous pouvez nous contacter par mail à l'adresse suivante : **leaders-without-a-title@googlegroups.com**.
+
+##Licences :##
+  **Contenu du site web** : Creative Commons Licence.
+  **Code source du site web** : MIT Licence.
