@@ -38,5 +38,5 @@ Les etudiants qui forment les LWT(TM) :
 Vous pouvez nous contacter par mail à l'adresse suivante : **leaders-without-a-title@googlegroups.com**.
 
 ##Licences :##
-  **Contenu du site web** : [Creative Commons Licence Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/).
+  **Contenu du site web** : [Creative Commons Licence Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/).  
   **Code source du site web** : [MIT Licence](http://mit-license.org/).
