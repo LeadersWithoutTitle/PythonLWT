@@ -4,7 +4,7 @@ PythonLWT by LWT
 
 ##le Projet :##
 
-Le projet [Site web](http://leaderswithouttitle.github.io/PythonLWT/index.html) consiste à présenter un langage de programmation nommé **Python**, un langage de programmation orienté objet.
+Le projet ([Site web](http://leaderswithouttitle.github.io/PythonLWT/index.html)) consiste à présenter un langage de programmation nommé **Python**, un langage de programmation orienté objet.
 Python étant surtout "Open Source" c'est dela que vient notre choix pour ce langage.
   Ce projet est réalisé en une série de pages web qui ont pour but de guider les gens à découvrir Python en commençant par sa description et son historique jusqu'à proposer des tutoriels et videos en lignes.
 
